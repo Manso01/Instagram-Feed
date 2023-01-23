@@ -1,0 +1,106 @@
+body {
+    background: rgb(208, 208, 208);
+    margin: 0%;
+}
+
+.insta-header {
+    background: white;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border: 0cm;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    padding: 0em;
+}
+
+.insta-header h1 {
+    font-size: 18px;
+    padding: 0px;
+    margin-right: 100%;
+    font-style: oblique;
+    font-style: italic;
+}
+
+.search {
+    margin-right: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    print-color-adjust: rgb(100, 100, 100);
+    mask-type: luminance rgb(179, 0, 0);
+}
+
+.lupa {
+    height: 20px;
+    width: 20px;
+}
+
+.about-us {
+    border: none;
+    background: none;
+}
+
+.about-us:hover {
+    color: rgb(180, 0, 0);
+}
+
+.post1,
+.post2,
+.post3,
+.post4,
+.post5 {
+    background-color: white;
+    margin-bottom: 40px;
+}
+
+.container {
+    width: 600px;
+    height: 600px;
+    margin: auto;
+}
+
+h2,
+p,
+span {
+    padding: 10px;
+    font-style: oblique;
+}
+
+span {
+    float: right;
+    margin-top: -60px;
+}
+
+img {
+    margin-top: -20px;
+    margin-bottom: -20px;
+    width: 100%;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+span {
+    color: #b5b2b1;
+}
